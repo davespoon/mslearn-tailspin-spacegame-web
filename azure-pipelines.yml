@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  age: ubuntu-latest
+  vmImage: ubuntu-latest
 
 variables:
   buildConfiguration: 'Release'
