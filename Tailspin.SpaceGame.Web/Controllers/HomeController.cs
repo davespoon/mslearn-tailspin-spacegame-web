@@ -119,6 +119,7 @@ namespace TailSpin.SpaceGame.Web.Controllers
             }
             catch (Exception)
             {
+                // ReSharper disable once Mvc.ActionNotResolved
                 return RedirectToAction("/");
             }
         }
